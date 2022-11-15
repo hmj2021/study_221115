@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <button class="buttonClass" id="buttonId">点击</button>
+    <button class="buttonClass">点击2</button>
+    <button class="buttonClass">点击3</button>
+  </div>
+  <script>
+    // getElementsByClassName 获取的是数组， 注意拼写复数Elements
+    document.getElementsByClassName('buttonClass')[1].onclick = function(e) {
+      console.log('xxxx')
+    }
+    document.getElementById('buttonId').onclick = function() {
+      console.log('yyyy')
+      console.log(document.getElementById('buttonId'))
+    }
+    console.log(document.getElementsByClassName('buttonClass'))
+    console.log(document.getElementById('buttonId'))
+    // dom操作节点
+    var newElement = document.createElement('div')
+    var newText = document.createTextNode('这是新建立 div 中的文字。'); 
+    document.body.appendChild(newElement) //必须的一步
+    newElement.appendChild(newText);
+    newElement.style.color = 'red'
+    newElement.setAttribute('name','xxx')
+    console.log('newElement',newElement);
+  </script>
+  <style></style>
+</body>
+</html>
