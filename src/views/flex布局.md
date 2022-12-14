@@ -1,4 +1,3 @@
-# flex布局
 
 ## 一、flex布局是什么？
 
@@ -43,10 +42,10 @@ flex布局包含的元素通常用容器和项目来称呼，设置flex布局（
 * column：垂直方向，项目从上往下排列
 * column-reverse：垂直方向，项目从下往上排列
 
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img1.png)
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img2.jpg)  
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img3.jpg)
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img4.jpg)
+![img1.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/995c59b8a8144600a36a30929b88c1f4~tplv-k3u1fbpfcp-watermark.image?)
+![img2.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5a05fe54fdc475e97226fc006d4c30c~tplv-k3u1fbpfcp-watermark.image?)
+![img3.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1a84d16d7e74189a0e0f93b0c3f5d19~tplv-k3u1fbpfcp-watermark.image?)
+![img4.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1de0d4b3c7704990afaecf3e7eede599~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.2 flex-wrap 属性
 
@@ -62,9 +61,9 @@ flex布局包含的元素通常用容器和项目来称呼，设置flex布局（
 * wrap：换行，第一行在上面（主轴是水平方向，反之第一行是在左边)
 * wrap-reverse：换行，第一行在下面（主轴是水平方向，反之第一行是在右边)
   
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img5.jpg)
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img6.jpg)  
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img7.jpg)
+![img5.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7e734cd311148e8a86b89a5bae235d5~tplv-k3u1fbpfcp-watermark.image?)
+![img6.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b87355b788b549ada6a4df4fc269d6bb~tplv-k3u1fbpfcp-watermark.image?)
+![img7.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa15b0dd2bbf4d8e99b715699ec28d71~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.3 flex-flow 属性
 
@@ -92,7 +91,8 @@ flex布局包含的元素通常用容器和项目来称呼，设置flex布局（
 * space-between：两端对齐，两两项目之间间距相等
 * space-around: 各项目左右间距相等，所以中间项目间距比两端大一倍
 * space-evenly: 各项目均分容器空间（左右端也会有同等间距，但是该属性兼容性不太好，使用时注意）  
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img8.jpg)
+
+![img8.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02bcb83dd364499daab56f3fc81c37bf~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.4 align-items 属性
 
@@ -110,7 +110,7 @@ flex布局包含的元素通常用容器和项目来称呼，设置flex布局（
 * stretch (默认值)：如果项目未设置高度或者设为auto，将占满整个容器的高度
 * baseline: 项目的第一行文字的基线对齐  
 
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img9.jpg)  
+![img9.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/05998ac42f1f4ff1808de52d64eb5274~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.5 align-content 属性
 
@@ -123,7 +123,8 @@ flex布局包含的元素通常用容器和项目来称呼，设置flex布局（
   ```
 
   属性参数作用同前两点，主要就是该间距比例都是轴线之间，不是各个项目之间  
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img10.jpg)
+  
+![img10.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ad52c02f46541a187fc2c95303cafde~tplv-k3u1fbpfcp-watermark.image?)
 
 ***
 （以下属性是添加在容器内子元素上的）
@@ -141,7 +142,7 @@ flex-grow 属性控制项目放大比例，默认为0，即如果存在剩余空
   所有项目设置为1时，将均分剩余空间。  
   为什么这里前两个和第三个项目并不是1：2的关系？要理解是分配剩余空间的占比不是项目和项目的比列关系。
 
-  ![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img11.jpg)
+![img11.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9acfa372d2d04c53bf30447c892ed67a~tplv-k3u1fbpfcp-watermark.image?)
 
   这里容器总宽500px，三个项目width都为100px，剩余空间即为200px。flex-grow 分别为1 1 2，以1：1: 2的比例分配**剩余空间**那200px。最后形成如图效果。  
   
@@ -156,7 +157,7 @@ flex-shrink 属性控制项目收缩比例，默认为1，即如果空间不足�
   }
 ```
 
-![Alt text](../../../../c:/Users/005/Desktop/%E8%B5%84%E6%96%99/img12.jpg)
+![img12.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8e2d5aa212fc42119f043effdd1e4c9e~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.7 flex-basis 属性
 
@@ -169,8 +170,9 @@ flex-basis属性控制项目占据主轴的空间，优先级大于设定的widt
 ```
 
 参数可以是长度单位或百分比，auto 是默认值，长度等于项目的长度。  
-![Alt text](%E8%B5%84%E6%96%99/img13.jpg)  
-![Alt text](%E8%B5%84%E6%96%99/img14.jpg)
+
+![img13.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4dda9fe1d5c46c086ef179031528a13~tplv-k3u1fbpfcp-watermark.image?)
+![img14.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/62f3b7e4f7534fe8b935c8da11735fc6~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.8 flex 属性
 
@@ -198,7 +200,7 @@ align-self属性可以为项目设置与其他项目不一样的对齐方式，�
   }
 ```
 
-![Alt text](%E8%B5%84%E6%96%99/img15.jpg)
+![img15.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4515810526134643a89235e5e159d270~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 2.10 order 属性
 
@@ -210,7 +212,7 @@ order 属性控制项目的排列顺序。默认为0，项目从小到大排列�
   }
 ```
 
-![Alt text](%E8%B5%84%E6%96%99/img16.jpg)
+![img16.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/baff12cc14694b568a8f90356843ae3d~tplv-k3u1fbpfcp-watermark.image?)
 
 ## 三、flex布局应用
 
@@ -251,7 +253,7 @@ order 属性控制项目的排列顺序。默认为0，项目从小到大排列�
   </div>
 ```
 
-![Alt text](%E8%B5%84%E6%96%99/img18.jpg)
+![img18.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fb4cecede2e2425a801796b6fab586a1~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 3.2 左右布局
 
@@ -285,7 +287,7 @@ order 属性控制项目的排列顺序。默认为0，项目从小到大排列�
   </div>
 ```
 
-![Alt text](%E8%B5%84%E6%96%99/img19.jpg)
+![img19.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce4b053e45ca4c2180751bdeaa7a7a3f~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 3.3 垂直居中布局
 
@@ -314,7 +316,7 @@ order 属性控制项目的排列顺序。默认为0，项目从小到大排列�
   </div>
 ```
 
-![Alt text](%E8%B5%84%E6%96%99/img17.jpg)
+![img17.jpg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c39607a5b42142a9990edc5607d53d97~tplv-k3u1fbpfcp-watermark.image?)
 
 ### End
 
